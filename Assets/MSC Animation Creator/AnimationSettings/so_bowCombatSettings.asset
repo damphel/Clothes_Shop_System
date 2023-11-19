@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c8576cffc69f434aa5d6631b95c5df1, type: 3}
+  m_Name: so_bowCombatSettings
+  m_EditorClassIdentifier: 
+  list:
+  - animationType: idle
+    animationName: right
+    spritePage: combat/pBOW2
+    keys: 1000000011000000120000001300000013000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 0000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: idle
+    animationName: left
+    spritePage: combat/pBOW2
+    keys: 18000000190000001a0000001b0000001b000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 0000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: idle
+    animationName: up
+    spritePage: combat/pBOW2
+    keys: 08000000090000000a0000000b0000000b000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 0700000007000000070000000700000007000000
+    xFlip: 0
+  - animationType: idle
+    animationName: down
+    spritePage: combat/pBOW2
+    keys: 0000000001000000020000000300000003000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0700000007000000070000000700000007000000
+    sectoolLayerKeys: 0000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: move
+    animationName: right
+    spritePage: combat/pBOW2
+    keys: 1400000015000000160000001700000017000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 0000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: move
+    animationName: left
+    spritePage: combat/pBOW2
+    keys: 1c0000001d0000001e0000001f0000001f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 0000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: move
+    animationName: up
+    spritePage: combat/pBOW2
+    keys: 0c0000000d0000000e0000000f0000000f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 0700000007000000070000000700000007000000
+    xFlip: 0
+  - animationType: move
+    animationName: down
+    spritePage: combat/pBOW2
+    keys: 0400000005000000060000000700000007000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0700000007000000070000000700000007000000
+    sectoolLayerKeys: 0000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: draw
+    animationName: right
+    spritePage: combat/pBOW1
+    keys: 10000000110000001200000012000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 00000000000000000700000007000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: draw
+    animationName: left
+    spritePage: combat/pBOW1
+    keys: 18000000190000001a0000001a000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 00000000000000000700000007000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: draw
+    animationName: up
+    spritePage: combat/pBOW1
+    keys: 08000000090000000a0000000a000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 07000000000000000000000000000000
+    sectoolLayerKeys: 07000000070000000700000007000000
+    xFlip: 0
+  - animationType: draw
+    animationName: down
+    spritePage: combat/pBOW1
+    keys: 00000000010000000200000002000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 00000000070000000700000007000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: sheath
+    animationName: right
+    spritePage: combat/pBOW1
+    keys: 12000000110000001000000010000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 07000000000000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: sheath
+    animationName: left
+    spritePage: combat/pBOW1
+    keys: 1a000000190000001800000018000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 07000000000000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: sheath
+    animationName: up
+    spritePage: combat/pBOW1
+    keys: 0a000000090000000800000008000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 00000000000000000700000007000000
+    sectoolLayerKeys: 07000000070000000700000007000000
+    xFlip: 0
+  - animationType: sheath
+    animationName: down
+    spritePage: combat/pBOW1
+    keys: 02000000010000000000000000000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    pritoolLayerKeys: 07000000070000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: parry
+    animationName: right
+    spritePage: combat/pBOW1
+    keys: 13000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: parry
+    animationName: left
+    spritePage: combat/pBOW1
+    keys: 1b000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: parry
+    animationName: up
+    spritePage: combat/pBOW1
+    keys: 0b000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 08000000
+    xFlip: 0
+  - animationType: parry
+    animationName: down
+    spritePage: combat/pBOW1
+    keys: 03000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 07000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: dodge
+    animationName: right
+    spritePage: combat/pBOW1
+    keys: 14000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: dodge
+    animationName: left
+    spritePage: combat/pBOW1
+    keys: 1c000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: dodge
+    animationName: up
+    spritePage: combat/pBOW1
+    keys: 0c000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 08000000
+    xFlip: 0
+  - animationType: dodge
+    animationName: down
+    spritePage: combat/pBOW1
+    keys: 04000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: hurt
+    animationName: right
+    spritePage: combat/pBOW1
+    keys: 15000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: hurt
+    animationName: left
+    spritePage: combat/pBOW1
+    keys: 1d000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: hurt
+    animationName: up
+    spritePage: combat/pBOW1
+    keys: 0d000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 07000000
+    sectoolLayerKeys: 08000000
+    xFlip: 0
+  - animationType: hurt
+    animationName: down
+    spritePage: combat/pBOW1
+    keys: 05000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: dead
+    animationName: right
+    spritePage: combat/pBOW1
+    keys: 160000001700000017000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    pritoolLayerKeys: 000000000000000000000000
+    sectoolLayerKeys: 000000000000000000000000
+    xFlip: 0
+  - animationType: dead
+    animationName: left
+    spritePage: combat/pBOW1
+    keys: 1e0000001f0000001f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    pritoolLayerKeys: 000000000000000000000000
+    sectoolLayerKeys: 000000000000000000000000
+    xFlip: 0
+  - animationType: dead
+    animationName: up
+    spritePage: combat/pBOW1
+    keys: 0e0000000f0000000f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    pritoolLayerKeys: 070000000000000007000000
+    sectoolLayerKeys: 080000000800000008000000
+    xFlip: 0
+  - animationType: dead
+    animationName: down
+    spritePage: combat/pBOW1
+    keys: 060000000700000007000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    pritoolLayerKeys: 000000000000000000000000
+    sectoolLayerKeys: 000000000000000000000000
+    xFlip: 0
+  - animationType: deaddown
+    animationName: right
+    spritePage: combat/pBOW1
+    keys: 17000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: deaddown
+    animationName: left
+    spritePage: combat/pBOW1
+    keys: 1f000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: deaddown
+    animationName: up
+    spritePage: combat/pBOW1
+    keys: 0f000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 08000000
+    xFlip: 0
+  - animationType: deaddown
+    animationName: down
+    spritePage: combat/pBOW1
+    keys: 07000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 00000000
+    xFlip: 0
+  - animationType: retreat
+    animationName: right
+    spritePage: combat/pBOW2
+    keys: 30000000310000003000000030000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: retreat
+    animationName: left
+    spritePage: combat/pBOW2
+    keys: 38000000390000003800000038000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: retreat
+    animationName: up
+    spritePage: combat/pBOW2
+    keys: 28000000290000002800000028000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 08000000080000000800000008000000
+    xFlip: 0
+  - animationType: retreat
+    animationName: down
+    spritePage: combat/pBOW2
+    keys: 20000000210000002000000020000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 07000000070000000700000007000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: lunge
+    animationName: right
+    spritePage: combat/pBOW2
+    keys: 30000000320000003000000030000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: lunge
+    animationName: left
+    spritePage: combat/pBOW2
+    keys: 380000003a0000003800000038000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: lunge
+    animationName: up
+    spritePage: combat/pBOW2
+    keys: 280000002a0000002800000028000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 08000000080000000800000008000000
+    xFlip: 0
+  - animationType: lunge
+    animationName: down
+    spritePage: combat/pBOW2
+    keys: 20000000220000002000000020000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.3
+    - 0.35
+    pritoolLayerKeys: 07000000000000000000000000000000
+    sectoolLayerKeys: 00000000000000000000000000000000
+    xFlip: 0
+  - animationType: shootup
+    animationName: right
+    spritePage: combat/pBOW3
+    keys: 100000001100000012000000130000001400000015000000160000001700000017000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 000000000700000007000000070000000700000007000000070000000700000007000000
+    sectoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: shootup
+    animationName: left
+    spritePage: combat/pBOW3
+    keys: 18000000190000001a0000001b0000001c0000001d0000001e0000001f0000001f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 000000000700000007000000070000000700000007000000070000000700000007000000
+    sectoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: shootup
+    animationName: up
+    spritePage: combat/pBOW3
+    keys: 08000000090000000a0000000b0000000c0000000d0000000e0000000f0000000f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 080000000800000008000000080000000800000008000000080000000800000008000000
+    xFlip: 0
+  - animationType: shootup
+    animationName: down
+    spritePage: combat/pBOW3
+    keys: 000000000100000002000000030000000400000005000000060000000700000007000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 070000000700000007000000070000000700000007000000070000000700000007000000
+    sectoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: shootstraight
+    animationName: right
+    spritePage: combat/pBOW3
+    keys: 300000003100000032000000330000003400000035000000360000003700000037000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 000000000700000007000000070000000700000007000000070000000700000007000000
+    sectoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: shootstraight
+    animationName: left
+    spritePage: combat/pBOW3
+    keys: 38000000390000003a0000003b0000003c0000003d0000003e0000003f0000003f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 000000000700000007000000070000000700000007000000070000000700000007000000
+    sectoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    xFlip: 0
+  - animationType: shootstraight
+    animationName: up
+    spritePage: combat/pBOW3
+    keys: 28000000290000002a0000002b0000002c0000002d0000002e0000002f0000002f000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 080000000800000008000000080000000800000008000000080000000800000008000000
+    xFlip: 0
+  - animationType: shootstraight
+    animationName: down
+    spritePage: combat/pBOW3
+    keys: 200000002100000022000000230000002400000025000000260000002700000027000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.55
+    - 0.72
+    - 1.3
+    pritoolLayerKeys: 070000000700000007000000070000000700000007000000070000000700000007000000
+    sectoolLayerKeys: 000000000000000000000000000000000000000000000000000000000000000000000000
+    xFlip: 0

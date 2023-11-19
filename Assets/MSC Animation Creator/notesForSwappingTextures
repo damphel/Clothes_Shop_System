@@ -1,0 +1,141 @@
+Short explanation of how i swap the textures for the base character:
+
+I created a playerBodypart Class with these vars
+public string bodypart;
+public string type;
+public string subtype;
+public string variation;
+public string color;
+public bool show;
+public string spritePage;
+
+Example where you can see that all parts of the base char naming system are placed into the bodypart:
+PlayerBodypart temp = new PlayerBodypart();
+temp.bodypart = "body";
+temp.type = "char";
+temp.subtype = "a";
+temp.variation = "humn";
+temp.color = "01";
+
+i have one PlayerBodypart for each animation layer of my player character.
+the playerbodypart also has a Function to get the Texture Path:
+public string GetTexturePath(string page)
+{
+	string texturePath = baseTexturePath;
+	string fileName = "";
+	texturePath += type + "_" + subtype + "_" + page + "/";
+	fileName = type + "_" + subtype + "_" + page + "_";
+	switch (bodypart)
+	{
+		case "body":
+			fileName += "0bas_";
+			break;
+		case "outfit":
+			texturePath += "1out/";
+			fileName += "1out_";
+			break;
+		case "cloak":
+			texturePath += "2clo/";
+			fileName += "2clo_";
+			break;
+		case "faceitems":
+			texturePath += "3fac/";
+			fileName += "3fac_";
+			break;
+		case "hair":
+			texturePath += "4har/";
+			fileName += "4har_";
+			break;
+		case "hat":
+			texturePath += "5hat/";
+			fileName += "5hat_";
+			break;
+		case "pritool":
+			texturePath += "6tla/";
+			fileName += "6tla_";
+			break;
+		case "sectool":
+			texturePath += "7tlb/";
+			fileName += "7tlb_";
+			break;
+	}
+	fileName += variation + "_v" + color;
+	//Debug.Log(texturePath + fileName);
+	return texturePath + fileName;
+}
+and the swap textures
+public Dictionary<string, Texture2D> GetSwapTextures()
+        {
+            //Debug.Log("GetSwapTextures "+show);
+            Texture2D blankTexture = Resources.Load<Texture2D>("Sprites/Character/Spritesheets/transparent");
+            blankTexture.filterMode = FilterMode.Point;
+
+            Dictionary<string, Texture2D> swapTextures = new Dictionary<string, Texture2D>();
+            //Debug.Log(color);
+            if (color == "" || color == null || show == false)
+            {
+                swapTextures.Add("p1", blankTexture);
+                swapTextures.Add("p2", blankTexture);
+                swapTextures.Add("p3", blankTexture);
+                swapTextures.Add("p4", blankTexture);
+            }
+            else
+            {
+                swapTextures.Add("p1", Resources.Load<Texture2D>(GetTexturePath("p1")));
+                swapTextures.Add("p2", Resources.Load<Texture2D>(GetTexturePath("p2")));
+                swapTextures.Add("p3", Resources.Load<Texture2D>(GetTexturePath("p3")));
+                swapTextures.Add("p4", Resources.Load<Texture2D>(GetTexturePath("p4")));
+            }
+            return swapTextures;
+        }
+
+in the class responsible for swapping the textures i get the swap textures from the bodypart and have two functions the pTexture in the functions in the texture used in the animations.
+The functions will grab the pixels from the swap textures and replace all the pixels in the used textures. So the png itself changes
+
+public void SwapTextureForPage(string page, string name)
+{
+	string pTexturePath = baseTexturePath + name + "/" + page + "/" + bodypart;
+	Texture2D pTexture = Resources.Load<Texture2D>(pTexturePath);
+	if (swapTextures[page] != null)
+	{
+		pTexture.SetPixels(swapTextures[page].GetPixels());
+		pTexture.Apply();
+	}
+}
+
+private void SwapAllTextures(string name) 
+{
+	//set texture of bodypart correctly for all pages 
+	string p1TexturePath = baseTexturePath + name + "/p1/" + bodypart;
+	//Debug.Log(p1TexturePath);
+	Texture2D p1Texture = Resources.Load<Texture2D>(p1TexturePath);
+	if (p1Texture != null)
+	{
+		if (swapTextures["p1"] != null)
+		{
+			p1Texture.SetPixels(swapTextures["p1"].GetPixels());
+			p1Texture.Apply();
+		}
+		string p2TexturePath = baseTexturePath + name + "/p2/" + bodypart;
+		Texture2D p2Texture = Resources.Load<Texture2D>(p2TexturePath);
+		if (swapTextures["p2"] != null)
+		{
+			p2Texture.SetPixels(swapTextures["p2"].GetPixels());
+			p2Texture.Apply();
+		}
+		string p3TexturePath = baseTexturePath + name + "/p3/" + bodypart;
+		Texture2D p3Texture = Resources.Load<Texture2D>(p3TexturePath);
+		if (swapTextures["p3"] != null)
+		{
+			p3Texture.SetPixels(swapTextures["p3"].GetPixels());
+			p3Texture.Apply();
+		}
+		string p4TexturePath = baseTexturePath + name + "/p4/" + bodypart;
+		Texture2D p4Texture = Resources.Load<Texture2D>(p4TexturePath);
+		if (swapTextures["p4"] != null)
+		{
+			p4Texture.SetPixels(swapTextures["p4"].GetPixels());
+			p4Texture.Apply();
+		}
+	}
+}

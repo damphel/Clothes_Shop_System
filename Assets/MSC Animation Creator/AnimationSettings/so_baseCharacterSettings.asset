@@ -1,0 +1,1052 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c8576cffc69f434aa5d6631b95c5df1, type: 3}
+  m_Name: so_baseCharacterSettings
+  m_EditorClassIdentifier: 
+  list:
+  - animationType: climb
+    animationName: standup
+    spritePage: p4
+    keys: 14000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: climb
+    animationName: up
+    spritePage: p4
+    keys: 10000000110000001200000013000000120000001100000010000000
+    keyTimer:
+    - 0
+    - 0.12
+    - 0.23
+    - 0.35
+    - 0.47
+    - 0.58
+    - 1.1
+    pritoolLayerKeys: 00000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: crafting
+    animationName: smithingleft
+    spritePage: p4
+    keys: 08000000090000000a0000000b0000000c0000000c000000
+    keyTimer:
+    - 0
+    - 0.15
+    - 0.3
+    - 0.4
+    - 0.6
+    - 1.1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: crafting
+    animationName: smithingright
+    spritePage: p4
+    keys: 000000000100000002000000030000000400000004000000
+    keyTimer:
+    - 0
+    - 0.15
+    - 0.3
+    - 0.4
+    - 0.6
+    - 1.1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: castright
+    spritePage: p3
+    keys: 1000000017000000110000001200000012000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.28
+    - 0.46
+    - 1.2
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: castleft
+    spritePage: p3
+    keys: 2000000021000000190000001a0000001a000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.28
+    - 0.46
+    - 1.2
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: castup
+    spritePage: p3
+    keys: 08000000090000000a0000000b0000000b000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.28
+    - 0.46
+    - 1.2
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: castdown
+    spritePage: p3
+    keys: 0000000001000000020000000300000003000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.28
+    - 0.46
+    - 1.2
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: reelright
+    spritePage: p3
+    keys: 150000001600000015000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: reelleft
+    spritePage: p3
+    keys: 1d0000001e0000001d000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: reelup
+    spritePage: p3
+    keys: 0c0000000d0000000c000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: reeldown
+    spritePage: p3
+    keys: 040000000500000004000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: showright
+    spritePage: p3
+    keys: 180000001f0000001f000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: showleft
+    spritePage: p3
+    keys: 220000002300000023000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: showup
+    spritePage: p3
+    keys: 0e0000000f0000000f000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: showdown
+    spritePage: p3
+    keys: 060000000700000007000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: waitright
+    spritePage: p3
+    keys: 12000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: waitleft
+    spritePage: p3
+    keys: 1a000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: waitup
+    spritePage: p3
+    keys: 0b000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: fishing
+    animationName: waitdown
+    spritePage: p3
+    keys: 03000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: hack
+    animationName: right
+    spritePage: p2
+    keys: 1000000011000000120000001300000013000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: hack
+    animationName: left
+    spritePage: p2
+    keys: 18000000190000001a0000001b0000001b000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: hack
+    animationName: up
+    spritePage: p2
+    keys: 08000000090000000a0000000b0000000b000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: hack
+    animationName: down
+    spritePage: p2
+    keys: 0000000001000000020000000300000003000000
+    keyTimer:
+    - 0
+    - 0.18
+    - 0.24
+    - 0.3
+    - 0.4
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle
+    animationName: right
+    spritePage: p1
+    keys: 10000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle
+    animationName: left
+    spritePage: p1
+    keys: 18000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle
+    animationName: up
+    spritePage: p1
+    keys: 08000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle
+    animationName: down
+    spritePage: p1
+    keys: 00000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: jump
+    animationName: right
+    spritePage: p1
+    keys: 15000000160000001700000015000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.3
+    - 0.55
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: jump
+    animationName: left
+    spritePage: p1
+    keys: 1d0000001e0000001f0000001d000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.3
+    - 0.55
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: jump
+    animationName: up
+    spritePage: p1
+    keys: 0d0000000e0000000f0000000d000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.3
+    - 0.55
+    pritoolLayerKeys: 00000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: jump
+    animationName: down
+    spritePage: p1
+    keys: 05000000060000000700000005000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.3
+    - 0.55
+    pritoolLayerKeys: 00000000000000000700000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: lift
+    animationName: right
+    spritePage: p2
+    keys: 3400000035000000360000003700000037000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: lift
+    animationName: left
+    spritePage: p2
+    keys: 3c0000003d0000003e0000003f0000003f000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: lift
+    animationName: up
+    spritePage: p2
+    keys: 2c0000002d0000002e0000002f0000002f000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: lift
+    animationName: down
+    spritePage: p2
+    keys: 2400000025000000260000002700000027000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: pull
+    animationName: right
+    spritePage: p1
+    keys: 130000001400000013000000
+    keyTimer:
+    - 0
+    - 0.4
+    - 1.1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: pull
+    animationName: left
+    spritePage: p1
+    keys: 1b0000001c0000001b000000
+    keyTimer:
+    - 0
+    - 0.4
+    - 1.1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: pull
+    animationName: up
+    spritePage: p1
+    keys: 0b0000000c0000000b000000
+    keyTimer:
+    - 0
+    - 0.4
+    - 1.1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: pull
+    animationName: down
+    spritePage: p1
+    keys: 030000000400000003000000
+    keyTimer:
+    - 0
+    - 0.4
+    - 1.1
+    pritoolLayerKeys: 000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: push
+    animationName: right
+    spritePage: p1
+    keys: 110000001200000011000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: push
+    animationName: left
+    spritePage: p1
+    keys: 190000001a00000019000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: push
+    animationName: up
+    spritePage: p1
+    keys: 090000000a00000009000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: push
+    animationName: down
+    spritePage: p1
+    keys: 010000000200000001000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: run
+    animationName: right
+    spritePage: p1
+    keys: 30000000310000003600000033000000340000003700000037000000
+    keyTimer:
+    - 0
+    - 0.08
+    - 0.13
+    - 0.23
+    - 0.31
+    - 0.36
+    - 0.45
+    pritoolLayerKeys: 00000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: run
+    animationName: left
+    spritePage: p1
+    keys: 38000000390000003e0000003b0000003c0000003f0000003f000000
+    keyTimer:
+    - 0
+    - 0.08
+    - 0.13
+    - 0.23
+    - 0.31
+    - 0.36
+    - 0.45
+    pritoolLayerKeys: 00000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: run
+    animationName: up
+    spritePage: p1
+    keys: 28000000290000002e0000002b0000002c0000002f0000002f000000
+    keyTimer:
+    - 0
+    - 0.08
+    - 0.13
+    - 0.23
+    - 0.31
+    - 0.36
+    - 0.45
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: run
+    animationName: down
+    spritePage: p1
+    keys: 20000000210000002600000023000000240000002700000027000000
+    keyTimer:
+    - 0
+    - 0.08
+    - 0.13
+    - 0.23
+    - 0.31
+    - 0.36
+    - 0.45
+    pritoolLayerKeys: 00000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: throwing
+    animationName: right
+    spritePage: p2
+    keys: 1400000015000000160000001700000017000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.4
+    - 0.5
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: throwing
+    animationName: left
+    spritePage: p2
+    keys: 1c0000001d0000001e0000001f0000001f000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.4
+    - 0.5
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: throwing
+    animationName: up
+    spritePage: p2
+    keys: 0c0000000d0000000e0000000f0000000f000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.4
+    - 0.5
+    - 1
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: throwing
+    animationName: down
+    spritePage: p2
+    keys: 0400000005000000060000000700000007000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.4
+    - 0.5
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: walk
+    animationName: right
+    spritePage: p1
+    keys: 30000000310000003200000033000000340000003500000035000000
+    keyTimer:
+    - 0
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.6
+    pritoolLayerKeys: 00000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: walk
+    animationName: left
+    spritePage: p1
+    keys: 38000000390000003a0000003b0000003c0000003d0000003d000000
+    keyTimer:
+    - 0
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.6
+    pritoolLayerKeys: 00000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: walk
+    animationName: up
+    spritePage: p1
+    keys: 28000000290000002a0000002b0000002c0000002d0000002d000000
+    keyTimer:
+    - 0
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.6
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: walk
+    animationName: down
+    spritePage: p1
+    keys: 20000000210000002200000023000000240000002500000025000000
+    keyTimer:
+    - 0
+    - 0.1
+    - 0.2
+    - 0.3
+    - 0.4
+    - 0.5
+    - 0.6
+    pritoolLayerKeys: 00000000000000000000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: water
+    animationName: right
+    spritePage: p2
+    keys: 3000000031000000320000003300000033000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: water
+    animationName: left
+    spritePage: p2
+    keys: 38000000390000003a0000003b0000003b000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: water
+    animationName: up
+    spritePage: p2
+    keys: 28000000290000002a0000002b0000002b000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 0000000000000000000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: water
+    animationName: down
+    spritePage: p2
+    keys: 2000000021000000220000002300000023000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 0.47
+    - 1
+    - 1.3
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sleep
+    animationName: right
+    spritePage: p4
+    keys: 37000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sleep
+    animationName: left
+    spritePage: p4
+    keys: 3f000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sleep
+    animationName: up
+    spritePage: p4
+    keys: 2f000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sleep
+    animationName: down
+    spritePage: p4
+    keys: 27000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: schock
+    animationName: down
+    spritePage: p4
+    keys: 18000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle2
+    animationName: right
+    spritePage: p4
+    keys: 30000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle2
+    animationName: left
+    spritePage: p4
+    keys: 38000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle2
+    animationName: up
+    spritePage: p4
+    keys: 28000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: idle2
+    animationName: down
+    spritePage: p4
+    keys: 20000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sideglance
+    animationName: right
+    spritePage: p4
+    keys: 19000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sideglance
+    animationName: left
+    spritePage: p4
+    keys: 1a000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstool
+    animationName: right
+    spritePage: p4
+    keys: 33000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstool
+    animationName: left
+    spritePage: p4
+    keys: 3b000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstool
+    animationName: up
+    spritePage: p4
+    keys: 2b000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstool
+    animationName: down
+    spritePage: p4
+    keys: 23000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstoolasleep
+    animationName: right
+    spritePage: p4
+    keys: 34000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstoolasleep
+    animationName: left
+    spritePage: p4
+    keys: 3c000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstoolasleep
+    animationName: up
+    spritePage: p4
+    keys: 2c000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstoolasleep
+    animationName: down
+    spritePage: p4
+    keys: 24000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingstooldrinking
+    animationName: right
+    spritePage: p4
+    keys: 1b0000001c0000001d000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 1
+  - animationType: sittingstooldrinking
+    animationName: left
+    spritePage: p4
+    keys: 1b0000001c0000001d000000
+    keyTimer:
+    - 0
+    - 0.3
+    - 1
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground
+    animationName: right
+    spritePage: p4
+    keys: 35000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground
+    animationName: left
+    spritePage: p4
+    keys: 3d000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground
+    animationName: up
+    spritePage: p4
+    keys: 2d000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground
+    animationName: down
+    spritePage: p4
+    keys: 25000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground2
+    animationName: right
+    spritePage: p4
+    keys: 36000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground2
+    animationName: left
+    spritePage: p4
+    keys: 3e000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground2
+    animationName: up
+    spritePage: p4
+    keys: 2e000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 00000000
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: sittingground2
+    animationName: down
+    spritePage: p4
+    keys: 26000000
+    keyTimer:
+    - 0
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: toetapping
+    animationName: right
+    spritePage: p4
+    keys: 310000003200000031000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.4
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: toetapping
+    animationName: left
+    spritePage: p4
+    keys: 390000003a00000039000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.4
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: toetapping
+    animationName: up
+    spritePage: p4
+    keys: 290000002a00000029000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.4
+    pritoolLayerKeys: 
+    sectoolLayerKeys: 
+    xFlip: 0
+  - animationType: toetapping
+    animationName: down
+    spritePage: p4
+    keys: 210000002200000021000000
+    keyTimer:
+    - 0
+    - 0.2
+    - 0.4
+    pritoolLayerKeys: 000000000000000000000000
+    sectoolLayerKeys: 
+    xFlip: 0

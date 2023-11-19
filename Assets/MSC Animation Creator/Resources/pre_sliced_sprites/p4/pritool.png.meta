@@ -1,0 +1,1926 @@
+fileFormatVersion: 2
+guid: bc2ee43f387a40746bc0c8fc1f08ac7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5852900776918780457
+    second: char_a_p4_6tla_farm_v01_0
+  - first:
+      213: -704191942493902766
+    second: char_a_p4_6tla_farm_v01_1
+  - first:
+      213: 779188471317245454
+    second: char_a_p4_6tla_farm_v01_2
+  - first:
+      213: -8550822210365178294
+    second: char_a_p4_6tla_farm_v01_3
+  - first:
+      213: -7689535935386309826
+    second: char_a_p4_6tla_farm_v01_4
+  - first:
+      213: -5418310787137182685
+    second: char_a_p4_6tla_farm_v01_5
+  - first:
+      213: 2199722680017057159
+    second: char_a_p4_6tla_farm_v01_6
+  - first:
+      213: 3084079161633752339
+    second: char_a_p4_6tla_farm_v01_7
+  - first:
+      213: -7704217110608877949
+    second: char_a_p4_6tla_farm_v01_8
+  - first:
+      213: -7298934598073156441
+    second: char_a_p4_6tla_farm_v01_9
+  - first:
+      213: -7851134964607062280
+    second: char_a_p4_6tla_farm_v01_10
+  - first:
+      213: -3387280040735105893
+    second: char_a_p4_6tla_farm_v01_11
+  - first:
+      213: -7482104387233049974
+    second: char_a_p4_6tla_farm_v01_12
+  - first:
+      213: -5845286375845836665
+    second: char_a_p4_6tla_farm_v01_13
+  - first:
+      213: -2809743801348774280
+    second: char_a_p4_6tla_farm_v01_14
+  - first:
+      213: -946351172692387109
+    second: char_a_p4_6tla_farm_v01_15
+  - first:
+      213: 4709561351285754624
+    second: char_a_p4_6tla_farm_v01_16
+  - first:
+      213: 5015922668421455046
+    second: char_a_p4_6tla_farm_v01_17
+  - first:
+      213: -8405043857969938743
+    second: char_a_p4_6tla_farm_v01_18
+  - first:
+      213: -1118332912507164402
+    second: char_a_p4_6tla_farm_v01_19
+  - first:
+      213: -567343434364796049
+    second: char_a_p4_6tla_farm_v01_20
+  - first:
+      213: -7946142986500632247
+    second: char_a_p4_6tla_farm_v01_21
+  - first:
+      213: -1231662501774675124
+    second: char_a_p4_6tla_farm_v01_22
+  - first:
+      213: -6415207032571466121
+    second: char_a_p4_6tla_farm_v01_23
+  - first:
+      213: 2731850662911361978
+    second: char_a_p4_6tla_farm_v01_24
+  - first:
+      213: -5973165534309648536
+    second: char_a_p4_6tla_farm_v01_25
+  - first:
+      213: 4148841811035479847
+    second: char_a_p4_6tla_farm_v01_26
+  - first:
+      213: 6525584042164963401
+    second: char_a_p4_6tla_farm_v01_27
+  - first:
+      213: -7540645809290657338
+    second: char_a_p4_6tla_farm_v01_28
+  - first:
+      213: 8008870793915007379
+    second: char_a_p4_6tla_farm_v01_29
+  - first:
+      213: -2263000947855782701
+    second: char_a_p4_6tla_farm_v01_30
+  - first:
+      213: -4817394835580655627
+    second: char_a_p4_6tla_farm_v01_31
+  - first:
+      213: -6367973229696209887
+    second: char_a_p4_6tla_farm_v01_32
+  - first:
+      213: 5061112810708668122
+    second: char_a_p4_6tla_farm_v01_33
+  - first:
+      213: -7820150146691840123
+    second: char_a_p4_6tla_farm_v01_34
+  - first:
+      213: -7752459371297168649
+    second: char_a_p4_6tla_farm_v01_35
+  - first:
+      213: 7917398445918675361
+    second: char_a_p4_6tla_farm_v01_36
+  - first:
+      213: 8832447340701068320
+    second: char_a_p4_6tla_farm_v01_37
+  - first:
+      213: 2501872303916789025
+    second: char_a_p4_6tla_farm_v01_38
+  - first:
+      213: 7533734603608268291
+    second: char_a_p4_6tla_farm_v01_39
+  - first:
+      213: -9038495664503746875
+    second: char_a_p4_6tla_farm_v01_40
+  - first:
+      213: -7134576116546206985
+    second: char_a_p4_6tla_farm_v01_41
+  - first:
+      213: 1481463015217834254
+    second: char_a_p4_6tla_farm_v01_42
+  - first:
+      213: 4531042279794658445
+    second: char_a_p4_6tla_farm_v01_43
+  - first:
+      213: -5651209478531520935
+    second: char_a_p4_6tla_farm_v01_44
+  - first:
+      213: 6342293465694848154
+    second: char_a_p4_6tla_farm_v01_45
+  - first:
+      213: -5974449133386406464
+    second: char_a_p4_6tla_farm_v01_46
+  - first:
+      213: -5008013918556431071
+    second: char_a_p4_6tla_farm_v01_47
+  - first:
+      213: 3105533784742761597
+    second: char_a_p4_6tla_farm_v01_48
+  - first:
+      213: -5207172101681119900
+    second: char_a_p4_6tla_farm_v01_49
+  - first:
+      213: 2294199823342439259
+    second: char_a_p4_6tla_farm_v01_50
+  - first:
+      213: 3973652858555852887
+    second: char_a_p4_6tla_farm_v01_51
+  - first:
+      213: -8958855620702515709
+    second: char_a_p4_6tla_farm_v01_52
+  - first:
+      213: -5709018407333813977
+    second: char_a_p4_6tla_farm_v01_53
+  - first:
+      213: -4146407575846132306
+    second: char_a_p4_6tla_farm_v01_54
+  - first:
+      213: 6896843839963768752
+    second: char_a_p4_6tla_farm_v01_55
+  - first:
+      213: -2516638495514037413
+    second: char_a_p4_6tla_farm_v01_56
+  - first:
+      213: 2420824117229685125
+    second: char_a_p4_6tla_farm_v01_57
+  - first:
+      213: 6594744333382202188
+    second: char_a_p4_6tla_farm_v01_58
+  - first:
+      213: 3589850021618216009
+    second: char_a_p4_6tla_farm_v01_59
+  - first:
+      213: -1253337866790101796
+    second: char_a_p4_6tla_farm_v01_60
+  - first:
+      213: -5531613261547003978
+    second: char_a_p4_6tla_farm_v01_61
+  - first:
+      213: -1895852334184589902
+    second: char_a_p4_6tla_farm_v01_62
+  - first:
+      213: 4042872992243785114
+    second: char_a_p4_6tla_farm_v01_63
+  - first:
+      213: -6750881303328918661
+    second: pritool_0
+  - first:
+      213: -8478474301999774575
+    second: pritool_1
+  - first:
+      213: 5357488075764329967
+    second: pritool_2
+  - first:
+      213: 1328820859373441209
+    second: pritool_3
+  - first:
+      213: 7952873919562962052
+    second: pritool_4
+  - first:
+      213: 3690201248135054643
+    second: pritool_5
+  - first:
+      213: -8591680465303287167
+    second: pritool_6
+  - first:
+      213: -4967141598978506468
+    second: pritool_7
+  - first:
+      213: 7298445125730763424
+    second: pritool_8
+  - first:
+      213: 8391020202749457094
+    second: pritool_9
+  - first:
+      213: 3627938683928610513
+    second: pritool_10
+  - first:
+      213: -4762115340392078855
+    second: pritool_11
+  - first:
+      213: -419144978442057572
+    second: pritool_12
+  - first:
+      213: 2312917241428369422
+    second: pritool_13
+  - first:
+      213: -4155448197469117272
+    second: pritool_14
+  - first:
+      213: 4641130004345575601
+    second: pritool_15
+  - first:
+      213: 8220206130991396852
+    second: pritool_16
+  - first:
+      213: 3542939285539538220
+    second: pritool_17
+  - first:
+      213: -3902881535474890776
+    second: pritool_18
+  - first:
+      213: 174780921169890947
+    second: pritool_19
+  - first:
+      213: 2474833049329451583
+    second: pritool_20
+  - first:
+      213: -9143809895114203858
+    second: pritool_21
+  - first:
+      213: 8798413045755458471
+    second: pritool_22
+  - first:
+      213: 2474452176967131420
+    second: pritool_23
+  - first:
+      213: 535053561303121324
+    second: pritool_24
+  - first:
+      213: 8265316015900825627
+    second: pritool_25
+  - first:
+      213: 8351347568701647521
+    second: pritool_26
+  - first:
+      213: -4501058593189895981
+    second: pritool_27
+  - first:
+      213: -5812268198944154775
+    second: pritool_28
+  - first:
+      213: -1896465963309036290
+    second: pritool_29
+  - first:
+      213: -1515260568669373012
+    second: pritool_30
+  - first:
+      213: 4176502052865425170
+    second: pritool_31
+  - first:
+      213: 4266390025079809815
+    second: pritool_32
+  - first:
+      213: 8910427447629680561
+    second: pritool_33
+  - first:
+      213: -3944449587536850109
+    second: pritool_34
+  - first:
+      213: 4757636375182484521
+    second: pritool_35
+  - first:
+      213: 7756849663359481020
+    second: pritool_36
+  - first:
+      213: -4745187146066228860
+    second: pritool_37
+  - first:
+      213: 2461840277753847502
+    second: pritool_38
+  - first:
+      213: 5223374302298252728
+    second: pritool_39
+  - first:
+      213: -7041576268355935968
+    second: pritool_40
+  - first:
+      213: 1508726837198310992
+    second: pritool_41
+  - first:
+      213: 213760374963880935
+    second: pritool_42
+  - first:
+      213: 8511425981641007013
+    second: pritool_43
+  - first:
+      213: -6586856556241387445
+    second: pritool_44
+  - first:
+      213: -6364449828687934082
+    second: pritool_45
+  - first:
+      213: 8385197551884411781
+    second: pritool_46
+  - first:
+      213: -6854626910270617354
+    second: pritool_47
+  - first:
+      213: -5515970188551121068
+    second: pritool_48
+  - first:
+      213: -937707027138285497
+    second: pritool_49
+  - first:
+      213: -2183399144964277423
+    second: pritool_50
+  - first:
+      213: 5004331174655683095
+    second: pritool_51
+  - first:
+      213: -8939980272210742982
+    second: pritool_52
+  - first:
+      213: 2102863299659750551
+    second: pritool_53
+  - first:
+      213: 7185765122364463042
+    second: pritool_54
+  - first:
+      213: -1086111963319034559
+    second: pritool_55
+  - first:
+      213: 2873789060713637521
+    second: pritool_56
+  - first:
+      213: -8103414521713342895
+    second: pritool_57
+  - first:
+      213: -8648181337938156303
+    second: pritool_58
+  - first:
+      213: -359043201555076426
+    second: pritool_59
+  - first:
+      213: -350682638396875664
+    second: pritool_60
+  - first:
+      213: -6419004380393079450
+    second: pritool_61
+  - first:
+      213: -4159250936459824660
+    second: pritool_62
+  - first:
+      213: -8652777152773802247
+    second: pritool_63
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pritool_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73f04ae83d0052a0800000000000000
+      internalID: -6750881303328918661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19486001b88665a80800000000000000
+      internalID: -8478474301999774575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fede25c050f995a40800000000000000
+      internalID: 5357488075764329967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0551df78be07210800000000000000
+      internalID: 1328820859373441209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484d40791b84e5e60800000000000000
+      internalID: 7952873919562962052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3350bc0db7a363330800000000000000
+      internalID: 3690201248135054643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a4fe1332834c880800000000000000
+      internalID: -8591680465303287167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1102d3680b211bb0800000000000000
+      internalID: -4967141598978506468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a20ddb4c29494560800000000000000
+      internalID: 7298445125730763424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2f108ba64e27470800000000000000
+      internalID: 8391020202749457094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6867ae207095230800000000000000
+      internalID: 3627938683928610513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1ed74245199edb0800000000000000
+      internalID: -4762115340392078855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c988292ecd5ee2af0800000000000000
+      internalID: -419144978442057572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00e63a0af1291020800000000000000
+      internalID: 2312917241428369422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4e05381e1e456c0800000000000000
+      internalID: -4155448197469117272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8dc61362b986040800000000000000
+      internalID: 4641130004345575601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7fa327ce9041270800000000000000
+      internalID: 8220206130991396852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254c57428c0b2130800000000000000
+      internalID: 3542939285539538220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7869dfbed26d9c0800000000000000
+      internalID: -3902881535474890776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ec8df5252fc6200800000000000000
+      internalID: 174780921169890947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32cdafcb8f585220800000000000000
+      internalID: 2474833049329451583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d140ca859aa1180800000000000000
+      internalID: -9143809895114203858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3ba639c0e3a1a70800000000000000
+      internalID: 8798413045755458471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1161dd0525075220800000000000000
+      internalID: 2474452176967131420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadb7411164ec6700800000000000000
+      internalID: 535053561303121324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b189d1cff1d44b270800000000000000
+      internalID: 8265316015900825627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaa84ccd52f5e370800000000000000
+      internalID: 8351347568701647521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d062bf9e070981c0800000000000000
+      internalID: -4501058593189895981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b52a62edca65fa0800000000000000
+      internalID: -5812268198944154775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc885811466ea5e0800000000000000
+      internalID: -1896465963309036290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad3e4e7a86b8fae0800000000000000
+      internalID: -1515260568669373012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fbbb03d7ae5f930800000000000000
+      internalID: 4176502052865425170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717e62e9f13453b30800000000000000
+      internalID: 4266390025079809815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf8bdcdd8238ab70800000000000000
+      internalID: 8910427447629680561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3431e6cafff7249c0800000000000000
+      internalID: -3944449587536850109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924aa318315860240800000000000000
+      internalID: 4757636375182484521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb476a8dbadd5ab60800000000000000
+      internalID: 7756849663359481020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48909f58e65b52eb0800000000000000
+      internalID: -4745187146066228860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece544170b63a2220800000000000000
+      internalID: 2461840277753847502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b52469d0472d7840800000000000000
+      internalID: 5223374302298252728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021e2d911bb474e90800000000000000
+      internalID: -7041576268355935968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ecd4a901310f410800000000000000
+      internalID: 1508726837198310992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3c6c0bded67f200800000000000000
+      internalID: 213760374963880935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af1eb7b5d8ae1670800000000000000
+      internalID: 8511425981641007013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4087ca5cd8c694a0800000000000000
+      internalID: -6586856556241387445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d8242e99eeca7a0800000000000000
+      internalID: -6364449828687934082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583ab8b2fb43e5470800000000000000
+      internalID: 8385197551884411781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f88c7974297fd0a0800000000000000
+      internalID: -6854626910270617354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45714cf96565373b0800000000000000
+      internalID: -5515970188551121068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740f8005d689cf2f0800000000000000
+      internalID: -937707027138285497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b3389bb0203b1e0800000000000000
+      internalID: -2183399144964277423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ae3c370b4f27540800000000000000
+      internalID: 5004331174655683095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31f0e7fe4fcee380800000000000000
+      internalID: -8939980272210742982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cdc63970fde2d10800000000000000
+      internalID: 2102863299659750551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7dce59e47f8b360800000000000000
+      internalID: 7185765122364463042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d11108cea5de0f0800000000000000
+      internalID: -1086111963319034559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1966d3bbcefb1e720800000000000000
+      internalID: 2873789060713637521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c88d1d63ea8f80800000000000000
+      internalID: -8103414521713342895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4a807a4ec7bf780800000000000000
+      internalID: -8648181337938156303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba6a484c1c640bf0800000000000000
+      internalID: -359043201555076426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c15759fff122bf0800000000000000
+      internalID: -350682638396875664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d7efe768d1be6a0800000000000000
+      internalID: -6419004380393079450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1f9985f4f5746c0800000000000000
+      internalID: -4159250936459824660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pritool_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f63d4026092be780800000000000000
+      internalID: -8652777152773802247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pritool_10: 3627938683928610513
+      pritool_42: 213760374963880935
+      pritool_30: -1515260568669373012
+      pritool_2: 5357488075764329967
+      pritool_8: 7298445125730763424
+      pritool_44: -6586856556241387445
+      pritool_39: 5223374302298252728
+      pritool_47: -6854626910270617354
+      pritool_60: -350682638396875664
+      pritool_34: -3944449587536850109
+      pritool_17: 3542939285539538220
+      pritool_9: 8391020202749457094
+      pritool_50: -2183399144964277423
+      pritool_22: 8798413045755458471
+      pritool_52: -8939980272210742982
+      pritool_59: -359043201555076426
+      pritool_62: -4159250936459824660
+      pritool_48: -5515970188551121068
+      pritool_51: 5004331174655683095
+      pritool_15: 4641130004345575601
+      pritool_7: -4967141598978506468
+      pritool_33: 8910427447629680561
+      pritool_19: 174780921169890947
+      pritool_25: 8265316015900825627
+      pritool_41: 1508726837198310992
+      pritool_1: -8478474301999774575
+      pritool_58: -8648181337938156303
+      pritool_20: 2474833049329451583
+      pritool_11: -4762115340392078855
+      pritool_21: -9143809895114203858
+      pritool_36: 7756849663359481020
+      pritool_53: 2102863299659750551
+      pritool_57: -8103414521713342895
+      pritool_23: 2474452176967131420
+      pritool_27: -4501058593189895981
+      pritool_6: -8591680465303287167
+      pritool_49: -937707027138285497
+      pritool_43: 8511425981641007013
+      pritool_28: -5812268198944154775
+      pritool_16: 8220206130991396852
+      pritool_18: -3902881535474890776
+      pritool_38: 2461840277753847502
+      pritool_5: 3690201248135054643
+      pritool_35: 4757636375182484521
+      pritool_46: 8385197551884411781
+      pritool_55: -1086111963319034559
+      pritool_3: 1328820859373441209
+      pritool_24: 535053561303121324
+      pritool_12: -419144978442057572
+      pritool_37: -4745187146066228860
+      pritool_63: -8652777152773802247
+      pritool_32: 4266390025079809815
+      pritool_4: 7952873919562962052
+      pritool_0: -6750881303328918661
+      pritool_31: 4176502052865425170
+      pritool_45: -6364449828687934082
+      pritool_26: 8351347568701647521
+      pritool_13: 2312917241428369422
+      pritool_54: 7185765122364463042
+      pritool_61: -6419004380393079450
+      pritool_40: -7041576268355935968
+      pritool_14: -4155448197469117272
+      pritool_29: -1896465963309036290
+      pritool_56: 2873789060713637521
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

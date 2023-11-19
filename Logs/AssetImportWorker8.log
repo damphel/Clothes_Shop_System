@@ -1,0 +1,337 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 32605 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+D:/Users/denis/Desktop/Clothes_Shop_System
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+64678
+Successfully changed project path to: D:/Users/denis/Desktop/Clothes_Shop_System
+D:/Users/denis/Desktop/Clothes_Shop_System
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14964] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1858079657 [EditorId] 1858079657 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2GSREEA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14964] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1858079657 [EditorId] 1858079657 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2GSREEA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/denis/Desktop/Clothes_Shop_System/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005360 seconds.
+- Loaded All Assemblies, in  0.292 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 226 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 850ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (559ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (324ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.522 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.591 seconds
+Domain Reload Profiling: 1112ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (246.5 KB). Loaded Objects now: 4863.
+Memory consumption went from 153.5 MB to 153.2 MB.
+Total: 2.899900 ms (FindLiveObjects: 0.250000 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.354900 ms  DeleteObjects: 0.165500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MSCUnityEditor.cs: cb8378178ca7a45029f0d5030132dc5b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SO_AnimationSettings.cs: 0a2c705b873f7f81a5a0981346553bdd -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/MSCAnimation.cs: 5794202198e1a10da4e8603e58a5da7f -> 
+  custom:scripting/monoscript/fileName/MovementAnimationParameterControl.cs: 27a29551f84f01b772ef011249800151 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/EventHandler.cs: 6813de9ecd0fa4692988c21d03bb644f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MSCAnimationSettings.cs: 1954b3e38ad8530c82f36a623f70b858 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MSCNpcEditor.cs: a57804d23c8c5e9c1c4941ed6b4ac709 -> 
+  custom:scripting/monoscript/fileName/Player.cs: efa14f782fa9ac90772d9fe8f2cb1f59 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11366.601170 seconds.
+  path: Assets/2D/Tileset/Background/88658 (1)_6.asset
+  artifactKey: Guid(cbe77273434c23c438bb92be560cc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/88658 (1)_6.asset using Guid(cbe77273434c23c438bb92be560cc84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d80829dd6df350563de0cca6344cf5') in 0.047602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 135.201749 seconds.
+  path: Assets/Tileset Palette/Background Palette.prefab
+  artifactKey: Guid(73b52b162c3c4664b9fabf3544ca2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset Palette/Background Palette.prefab using Guid(73b52b162c3c4664b9fabf3544ca2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965989ce6f8bcf84dda6845b82a49ee5') in 0.037268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 90.287890 seconds.
+  path: Assets/2D/Tileset/Background/Floor.png
+  artifactKey: Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor.png using Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c9276ea59d4ab21c9be4b268500ba6') in 0.056362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 253.174701 seconds.
+  path: Assets/2D/Tileset/Background/Walls.png
+  artifactKey: Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls.png using Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e83619a85ff3c9793a31c8e7af7c9a7') in 0.018764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.128395 seconds.
+  path: Assets/2D/Tileset/Background/Walls.png
+  artifactKey: Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls.png using Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4747a4f3ae72c9e69e9f360ca1c026f') in 0.609344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 338
+========================================================================
+Received Import Request.
+  Time since last request: 124.476304 seconds.
+  path: Assets/2D/Tileset/Background/Walls.png
+  artifactKey: Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls.png using Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff90db36862b193c592e9565d17edc2') in 0.484135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 338
+========================================================================
+Received Import Request.
+  Time since last request: 135.134061 seconds.
+  path: Assets/2D/Tileset/Background/Walls.png
+  artifactKey: Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls.png using Guid(8ad2e30ae1dd7fa4f8e34a378f34fcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c69cbccd4bf796701be70ef1496b808') in 0.055501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 14.673588 seconds.
+  path: Assets/2D/Tileset/Background/Floor.png
+  artifactKey: Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor.png using Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc83383e9cabc19132ce957002bc74b') in 0.048482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.903786 seconds.
+  path: Assets/2D/Tileset/Background/Floor.png
+  artifactKey: Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor.png using Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f97bf3031016ac94edef56050c837b6') in 0.012923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.305339 seconds.
+  path: Assets/2D/Tileset/Background/Floor.png
+  artifactKey: Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor.png using Guid(c5ef99481a1b6ea4baed8c893f8b73b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e6c6b0051e1726bd2741d675602372') in 0.024789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 7.925253 seconds.
+  path: Assets/2D/Tileset/Background/Floor_0.asset
+  artifactKey: Guid(624e7ea11b902654db4da660d1f65a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor_0.asset using Guid(624e7ea11b902654db4da660d1f65a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4cd6461bc668854866b8e363fc355e') in 0.013201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D/Tileset/Background/Floor_3.asset
+  artifactKey: Guid(b5efeef0a44ba9948b5482f8208a1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor_3.asset using Guid(b5efeef0a44ba9948b5482f8208a1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aedd6c6569d85855890a8bcccf9319') in 0.010062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 62.254373 seconds.
+  path: Assets/2D/Tileset/Background/Walls_0.asset
+  artifactKey: Guid(dd8a6a782338fc7409006585aa3c85fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_0.asset using Guid(dd8a6a782338fc7409006585aa3c85fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd6a81038d6bef9b7b6c6217a88ae77') in 0.146246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D/Tileset/Background/Walls_7.asset
+  artifactKey: Guid(f7e642ac183405a4c88cfa4cf599de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_7.asset using Guid(f7e642ac183405a4c88cfa4cf599de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be453a5e455409d8d5bdb09d9bad7aaf') in 0.022847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D/Tileset/Background/Walls_10.asset
+  artifactKey: Guid(346edd5cae7caab4fa77403201d84ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_10.asset using Guid(346edd5cae7caab4fa77403201d84ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe25d4df8126350811ab0c295c814ba') in 0.017650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D/Tileset/Background/Walls_3.asset
+  artifactKey: Guid(489b1e1cd437f0d47a492d2c7803f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_3.asset using Guid(489b1e1cd437f0d47a492d2c7803f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271db48764532e3f31bcc704fcfdcbbf') in 0.030643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D/Tileset/Background/Walls_4.asset
+  artifactKey: Guid(65102832d66231847b0ba5e73f6c2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_4.asset using Guid(65102832d66231847b0ba5e73f6c2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a181fc1b7b5abb570e392dc048e3060') in 0.018882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
