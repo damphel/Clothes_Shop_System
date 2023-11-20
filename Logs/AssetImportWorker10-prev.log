@@ -1,0 +1,961 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'es' Physical Memory: 32605 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Users/denis/Desktop/Clothes_Shop_System
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+64678
+Successfully changed project path to: D:/Users/denis/Desktop/Clothes_Shop_System
+D:/Users/denis/Desktop/Clothes_Shop_System
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37156] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2394675871 [EditorId] 2394675871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2GSREEA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37156] Host "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 2394675871 [EditorId] 2394675871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2GSREEA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 8.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/denis/Desktop/Clothes_Shop_System/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.4617
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files/Unity/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005640 seconds.
+- Loaded All Assemblies, in  0.585 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 375 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (380ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (375ms)
+				TypeCache.ScanAssembly (357ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (682ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (525ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.741 seconds
+Refreshing native plugins compatible for Editor in 10.84 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.099 seconds
+Domain Reload Profiling: 1841ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (522ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (314ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (170ms)
+			ScanForSourceGeneratedMonoScriptInfo (75ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1100ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (550ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (246.5 KB). Loaded Objects now: 4863.
+Memory consumption went from 153.5 MB to 153.2 MB.
+Total: 3.604400 ms (FindLiveObjects: 0.297100 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.943500 ms  DeleteObjects: 0.211900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MSCUnityEditor.cs: cb8378178ca7a45029f0d5030132dc5b -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/SO_AnimationSettings.cs: 0a2c705b873f7f81a5a0981346553bdd -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:scripting/monoscript/fileName/MSCAnimation.cs: 5794202198e1a10da4e8603e58a5da7f -> 
+  custom:scripting/monoscript/fileName/MovementAnimationParameterControl.cs: 27a29551f84f01b772ef011249800151 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/EventHandler.cs: 6813de9ecd0fa4692988c21d03bb644f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/MSCAnimationSettings.cs: 1954b3e38ad8530c82f36a623f70b858 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MSCNpcEditor.cs: a57804d23c8c5e9c1c4941ed6b4ac709 -> 
+  custom:scripting/monoscript/fileName/Player.cs: efa14f782fa9ac90772d9fe8f2cb1f59 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12529.067558 seconds.
+  path: Assets/2D/Tileset/Background/Walls_12.asset
+  artifactKey: Guid(c61dada83a7f9ec48a08fd77d0b0dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_12.asset using Guid(c61dada83a7f9ec48a08fd77d0b0dfa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f30e7f5302cb09075dcb75b95977c3') in 0.052304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.922787 seconds.
+  path: Assets/2D/Tileset/Background/Walls_0.asset
+  artifactKey: Guid(dd8a6a782338fc7409006585aa3c85fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_0.asset using Guid(dd8a6a782338fc7409006585aa3c85fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b690fc6cd11d113fc4b4040a83f781d') in 0.041132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001896 seconds.
+  path: Assets/2D/Tileset/Background/Walls_3.asset
+  artifactKey: Guid(489b1e1cd437f0d47a492d2c7803f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_3.asset using Guid(489b1e1cd437f0d47a492d2c7803f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6aef71c05ae6423b3555f4af03e378a') in 0.007520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Background/Walls_7.asset
+  artifactKey: Guid(f7e642ac183405a4c88cfa4cf599de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_7.asset using Guid(f7e642ac183405a4c88cfa4cf599de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378603ee0553585cb191481504198bb7') in 0.012748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D/Tileset/Background/Walls_6.asset
+  artifactKey: Guid(d8c04df59f567554ab76f88954a781b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_6.asset using Guid(d8c04df59f567554ab76f88954a781b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc536bfabaac0396a69d799f4597e95') in 0.005476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Background/Walls_8.asset
+  artifactKey: Guid(6dbe6d8fc0b50de45a5b9bd4b406ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_8.asset using Guid(6dbe6d8fc0b50de45a5b9bd4b406ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544e60fb80788f95674dc2079061810b') in 0.004849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D/Tileset/Background/Walls_10.asset
+  artifactKey: Guid(346edd5cae7caab4fa77403201d84ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_10.asset using Guid(346edd5cae7caab4fa77403201d84ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3c3d48beca618ca8282f70f344ce8c') in 0.004059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Background/Walls_1.asset
+  artifactKey: Guid(dfe5f347f0b2c4445a4e77a28a824a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_1.asset using Guid(dfe5f347f0b2c4445a4e77a28a824a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e4b72dfc4272b9313d34c6fad57352') in 0.004216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D/Tileset/Background/Walls_2.asset
+  artifactKey: Guid(683a66f02713d8a4787eb4e60e5740e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_2.asset using Guid(683a66f02713d8a4787eb4e60e5740e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06db161a4343a482764112e2da11838f') in 0.004129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Background/Walls_4.asset
+  artifactKey: Guid(65102832d66231847b0ba5e73f6c2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_4.asset using Guid(65102832d66231847b0ba5e73f6c2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c0e9f5403119ecc77137df6b071284') in 0.004219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 40.612402 seconds.
+  path: Assets/2D/Tileset/Background/Walls_1.asset
+  artifactKey: Guid(dfe5f347f0b2c4445a4e77a28a824a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_1.asset using Guid(dfe5f347f0b2c4445a4e77a28a824a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20c772922f74cef6154bfce73c1eee7') in 0.006421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Background/Walls_7.asset
+  artifactKey: Guid(f7e642ac183405a4c88cfa4cf599de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_7.asset using Guid(f7e642ac183405a4c88cfa4cf599de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fe5b2152890fe1b7938148bb9cf454') in 0.006430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D/Tileset/Background/Walls_6.asset
+  artifactKey: Guid(d8c04df59f567554ab76f88954a781b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_6.asset using Guid(d8c04df59f567554ab76f88954a781b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ace0af88dc4b2bb6889561b715701') in 0.006151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Background/Walls_8.asset
+  artifactKey: Guid(6dbe6d8fc0b50de45a5b9bd4b406ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_8.asset using Guid(6dbe6d8fc0b50de45a5b9bd4b406ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866b7ea6b024933c57ed5a2f4b2d3d04') in 0.008326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D/Tileset/Background/Walls_3.asset
+  artifactKey: Guid(489b1e1cd437f0d47a492d2c7803f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_3.asset using Guid(489b1e1cd437f0d47a492d2c7803f052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7265b5c4afa9fd2323e29ec3df8de66e') in 0.005476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D/Tileset/Background/Walls_5.asset
+  artifactKey: Guid(e28b529e4245a204d9a515af8350191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_5.asset using Guid(e28b529e4245a204d9a515af8350191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bc1abe4d56882eb04795b198157b7b') in 0.004563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Background/Walls_4.asset
+  artifactKey: Guid(65102832d66231847b0ba5e73f6c2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_4.asset using Guid(65102832d66231847b0ba5e73f6c2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e67db665aa6d7b7f35dd29104ed4b') in 0.002632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D/Tileset/Background/Walls_9.asset
+  artifactKey: Guid(4433ff782dbbdcb408f2c9bb61103d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Walls_9.asset using Guid(4433ff782dbbdcb408f2c9bb61103d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310bf00a54a6e559147d1210af3df2af') in 0.007389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 162.190754 seconds.
+  path: Assets/2D/Tileset/Background/Floor_0.asset
+  artifactKey: Guid(624e7ea11b902654db4da660d1f65a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor_0.asset using Guid(624e7ea11b902654db4da660d1f65a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2a78fea73dc097c217a73fd88ccb5e') in 0.006149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001554 seconds.
+  path: Assets/2D/Tileset/Background/Floor_1.asset
+  artifactKey: Guid(9c63bb01def6c7145b9f5dcea6aa842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor_1.asset using Guid(9c63bb01def6c7145b9f5dcea6aa842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f1a22d83aad1389f36c79b29930fc6') in 0.006432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/2D/Tileset/Background/Floor_3.asset
+  artifactKey: Guid(b5efeef0a44ba9948b5482f8208a1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor_3.asset using Guid(b5efeef0a44ba9948b5482f8208a1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ab4ef47357dacf7222582b98b45ad6') in 0.012735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D/Tileset/Background/Floor_2.asset
+  artifactKey: Guid(aa73c8f77096a2e4e9a54f4f6bb0ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor_2.asset using Guid(aa73c8f77096a2e4e9a54f4f6bb0ce50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108302a3cfa3460b1e9ac749ea01aa8d') in 0.013832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.789984 seconds.
+  path: Assets/2D/Tileset/Background/Floor_5.asset
+  artifactKey: Guid(a890b74aa753a5f4ba9de6e58ca5f8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Background/Floor_5.asset using Guid(a890b74aa753a5f4ba9de6e58ca5f8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04fc5bab713902bdf51f09626d70211a') in 0.012074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 231.489383 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_1.asset
+  artifactKey: Guid(b72ad6ca0aa051642a60fab3583f0b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_1.asset using Guid(b72ad6ca0aa051642a60fab3583f0b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600edd2cf670b93b587ce83bd6b97208') in 0.012906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003029 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_6.asset
+  artifactKey: Guid(378b2ed1b9d962349a8a6788355114bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_6.asset using Guid(378b2ed1b9d962349a8a6788355114bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739d26f3273a7984810ae131b7241768') in 0.010677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_7.asset
+  artifactKey: Guid(190fa4d6b3ce67140adc5681708704d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_7.asset using Guid(190fa4d6b3ce67140adc5681708704d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa8b57b8a8b5e0c95eeb8ea3221871a') in 0.011064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_8.asset
+  artifactKey: Guid(e7496b089d3d216408c0bedd0f0fb1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_8.asset using Guid(e7496b089d3d216408c0bedd0f0fb1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a811f4c5b3e317d6c4e8b66b881456a8') in 0.010720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_9.asset
+  artifactKey: Guid(d86ef673cf43b314fbfb1b4adc4f4e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_9.asset using Guid(d86ef673cf43b314fbfb1b4adc4f4e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc32d45c08eee011c7fb78e1b00e9b7a') in 0.008786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_10.asset
+  artifactKey: Guid(bf1b3a03bc2e70b439defe78d514b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_10.asset using Guid(bf1b3a03bc2e70b439defe78d514b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99abc3b435fe5c57fa0f48036218ada') in 0.009581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_14.asset
+  artifactKey: Guid(de0cf2d36585f7e42a2e144ad9e7e4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_14.asset using Guid(de0cf2d36585f7e42a2e144ad9e7e4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea945f4b3948aa495264c05fd5e968cf') in 0.009048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_4.asset
+  artifactKey: Guid(72b29e85e9813ea4cbb78c121849e5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_4.asset using Guid(72b29e85e9813ea4cbb78c121849e5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db65a8e044778d7aceaf1054c38fa4bd') in 0.009277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.964789 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_18.asset
+  artifactKey: Guid(72e906e5ae4676f4ab0496b6418f5dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_18.asset using Guid(72e906e5ae4676f4ab0496b6418f5dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e221f9b696379f884fef8641ec8855a8') in 0.011757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021167 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_20.asset
+  artifactKey: Guid(6f123e072363bf542829dfe2be3f3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_20.asset using Guid(6f123e072363bf542829dfe2be3f3077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fcb2c3822c6f9491aa8d068e7d8bf6') in 0.009545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.607714 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_22.asset
+  artifactKey: Guid(6b414ec0564894843b8d33802263fa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_22.asset using Guid(6b414ec0564894843b8d33802263fa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb51a828bffac20e61b64a7b9780808') in 0.009281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_26.asset
+  artifactKey: Guid(213441b8539e04f4bacf6d98202b3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_26.asset using Guid(213441b8539e04f4bacf6d98202b3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cede757f183687741acac8af5c72a4') in 0.009606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_24.asset
+  artifactKey: Guid(2a33773baa83a264a9c3eea6f34690f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_24.asset using Guid(2a33773baa83a264a9c3eea6f34690f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921b0e24259d41bc231714865c991647') in 0.010050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013619 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_53.asset
+  artifactKey: Guid(501128dd5e7ecf643b870349d24c7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_53.asset using Guid(501128dd5e7ecf643b870349d24c7124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba155c11d72b364a712a1202387bf71') in 0.011392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_63.asset
+  artifactKey: Guid(efa6038897934024492381d3ac8cf040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_63.asset using Guid(efa6038897934024492381d3ac8cf040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea99592f2b686b64669aa402eb792a2') in 0.010391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_57.asset
+  artifactKey: Guid(d1d39011fb6010a4dace46575a892551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_57.asset using Guid(d1d39011fb6010a4dace46575a892551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ffd14a70c797fae2285fd96137658e') in 0.009271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_54.asset
+  artifactKey: Guid(c20d1b81441ff3141806f2671490e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_54.asset using Guid(c20d1b81441ff3141806f2671490e10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66e94e70084104425ee8bf2e9c30a39') in 0.009286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_55.asset
+  artifactKey: Guid(8f7d838e69dadfc42bce5ae235b0fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_55.asset using Guid(8f7d838e69dadfc42bce5ae235b0fac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeb805a1122a3c1216afa9ea7d5b94a') in 0.010311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_64.asset
+  artifactKey: Guid(2fb1ebdab49cb3247a8bb9f37f569b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_64.asset using Guid(2fb1ebdab49cb3247a8bb9f37f569b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f6a7ed605f79d9a663c8ae0a00e8bc') in 0.010170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_59.asset
+  artifactKey: Guid(c3bd7c0c99763ba48bd84598af13f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_59.asset using Guid(c3bd7c0c99763ba48bd84598af13f3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20711c1b8f39bfdc04bd2f93add6be66') in 0.013497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_158.asset
+  artifactKey: Guid(a1c2dbd9bbceaa44b8387d4f6318fd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_158.asset using Guid(a1c2dbd9bbceaa44b8387d4f6318fd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866d3a97f6c6468b3434c6f3e4a9b490') in 0.010508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_146.asset
+  artifactKey: Guid(e350c7865b82ccb4b90c9e695f09ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_146.asset using Guid(e350c7865b82ccb4b90c9e695f09ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b2cd78a062aa7f7707a23130b8cb83') in 0.010193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_147.asset
+  artifactKey: Guid(edd67afde9b753d4699f6b0eb86c958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_147.asset using Guid(edd67afde9b753d4699f6b0eb86c958c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b73b49c37cb3f8c19c48e29e8a228fd') in 0.010651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_155.asset
+  artifactKey: Guid(f5908d3be86aee84dadf2fd14653674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_155.asset using Guid(f5908d3be86aee84dadf2fd14653674c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f367f9a99d68231738bc95be719493') in 0.009649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_157.asset
+  artifactKey: Guid(c798b9298e4ce904396dce027f688258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_157.asset using Guid(c798b9298e4ce904396dce027f688258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5290c87aa2f81b11914b9d7a70674c1') in 0.009163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_156.asset
+  artifactKey: Guid(8a22733f0f0990e4e81469bed292386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_156.asset using Guid(8a22733f0f0990e4e81469bed292386a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f09493174422888ad624ca88bc504b') in 0.009214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_191.asset
+  artifactKey: Guid(e6a0a653287f5a449b7d39691be114b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_191.asset using Guid(e6a0a653287f5a449b7d39691be114b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12932e83217e49c312c41991cbb1e1c8') in 0.009700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_179.asset
+  artifactKey: Guid(e14a583f6ba3de5419fb81f9da430a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_179.asset using Guid(e14a583f6ba3de5419fb81f9da430a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec8ef3964c30bd2172b01e5cf8a396b') in 0.009152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_184.asset
+  artifactKey: Guid(d57366ab409623a459943a5f6479a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_184.asset using Guid(d57366ab409623a459943a5f6479a4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73715b38266dc84b3a8eda5a04693919') in 0.009363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_190.asset
+  artifactKey: Guid(3cb74dcac2b76724aa874e5d2007e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_190.asset using Guid(3cb74dcac2b76724aa874e5d2007e257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4701dbc4fd258c517d225c5c27556906') in 0.008689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_189.asset
+  artifactKey: Guid(3611b8d6ae90e6949a84f7cd54c203f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_189.asset using Guid(3611b8d6ae90e6949a84f7cd54c203f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d9de9ddc8b7c9ed7565f454c832e33') in 0.008707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_185.asset
+  artifactKey: Guid(c6575cf52a2a5ce4fa7b750f20d9e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_185.asset using Guid(c6575cf52a2a5ce4fa7b750f20d9e742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcf1b6ffcae3baba3e717fb6a495dfa') in 0.010572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_182.asset
+  artifactKey: Guid(463648396b6815a46861074ea3d1c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_182.asset using Guid(463648396b6815a46861074ea3d1c89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f0cf743b2c4651c6a926119192d604') in 0.008755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_177.asset
+  artifactKey: Guid(e94f036a390c4674db6a197e9fc349f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_177.asset using Guid(e94f036a390c4674db6a197e9fc349f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaee88ff16a33dad059129e580602ac') in 0.009474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_202.asset
+  artifactKey: Guid(9db79f3488ad0e34f971279defd28a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_202.asset using Guid(9db79f3488ad0e34f971279defd28a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a289a207fe49cc7b5fe5910261ec607e') in 0.009580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_213.asset
+  artifactKey: Guid(24c41c1ad5c1d33408173475be212af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_213.asset using Guid(24c41c1ad5c1d33408173475be212af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374d8a5b526c500d4925e1badbf963f7') in 0.010006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_215.asset
+  artifactKey: Guid(a9e4f2fbee4807249bb9f386763dc194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_215.asset using Guid(a9e4f2fbee4807249bb9f386763dc194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c216f43bb67474f4425f4c43eec282be') in 0.010260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_210.asset
+  artifactKey: Guid(af3ac114b9f7f92409234e4feb8da4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_210.asset using Guid(af3ac114b9f7f92409234e4feb8da4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2194494271b2e8c9fd46bb487b3b6874') in 0.010724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_216.asset
+  artifactKey: Guid(879c833a1143a5c418ff65745d886fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_216.asset using Guid(879c833a1143a5c418ff65745d886fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3be2ae69b28cef3e7ce5d9ad1ea079') in 0.010337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_204.asset
+  artifactKey: Guid(f6ff95c25c8bd464585ef2854d1d49e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_204.asset using Guid(f6ff95c25c8bd464585ef2854d1d49e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0947662cd71f9dd560f39b3333c91d') in 0.009390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_244.asset
+  artifactKey: Guid(5dbff8f737b7c7e468e9cc5277e8cd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_244.asset using Guid(5dbff8f737b7c7e468e9cc5277e8cd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870ae3a0d4509f31a0707dbaff5706d1') in 0.009250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_247.asset
+  artifactKey: Guid(06964b646d7808e499b417d7bf6591c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_247.asset using Guid(06964b646d7808e499b417d7bf6591c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd570e125e164ebac8edd8b142189d') in 0.008807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_240.asset
+  artifactKey: Guid(eabeb9625ad4cdb4aa6cb97ba4d7f338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_240.asset using Guid(eabeb9625ad4cdb4aa6cb97ba4d7f338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a8dfcaea0b4c09a67b9fa23d3450a1') in 0.009154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_154.asset
+  artifactKey: Guid(1c94f6789267fb24c89d5fa8c7475755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_154.asset using Guid(1c94f6789267fb24c89d5fa8c7475755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afe9667cc1eacbf0473f92f5f1b69e7') in 0.011559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_176.asset
+  artifactKey: Guid(86ad5ef364a44e24ebc4417a4b5fdf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_176.asset using Guid(86ad5ef364a44e24ebc4417a4b5fdf7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff01860f2a779971bacd3a3cc8464adb') in 0.011364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_58.asset
+  artifactKey: Guid(eb3c24021e313d64ca6d66b92a37ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_58.asset using Guid(eb3c24021e313d64ca6d66b92a37ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd350d488872bd238212299e5dfe8391a') in 0.009276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_211.asset
+  artifactKey: Guid(8e2cd33cdb176e841a69cceb735a902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_211.asset using Guid(8e2cd33cdb176e841a69cceb735a902a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd018488ac59223aacca4217db37bc4e') in 0.010119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_0.asset
+  artifactKey: Guid(079315527363e924985f4ae7e5fdc35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_0.asset using Guid(079315527363e924985f4ae7e5fdc35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62920c7b19798957cb5e28d4a2e42d50') in 0.009359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_4.asset
+  artifactKey: Guid(2693aa17a81a44344a45747243f7589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_4.asset using Guid(2693aa17a81a44344a45747243f7589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6232fd381fe0bde946c1398951220f0e') in 0.009660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_255.asset
+  artifactKey: Guid(cbbe570a46433334c86d45f1841fea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_255.asset using Guid(cbbe570a46433334c86d45f1841fea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2148e784cb0b2dec3aa06589a675fbcd') in 0.009676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_2.asset
+  artifactKey: Guid(46567942b70bd514bbe6d8b6dc44b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_2.asset using Guid(46567942b70bd514bbe6d8b6dc44b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d59488c912b5493f213b8be4bbd629') in 0.009941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_253.asset
+  artifactKey: Guid(76ded9f67f19ee34da24c8b80ac86b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_253.asset using Guid(76ded9f67f19ee34da24c8b80ac86b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baff0e60b8dc90be92d6101f4120879') in 0.011429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_241.asset
+  artifactKey: Guid(e7a6b288572ea0d4b8220df9b9d24008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_241.asset using Guid(e7a6b288572ea0d4b8220df9b9d24008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad904ce28fdd4cf685e8f0302d1f79b') in 0.009580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_232.asset
+  artifactKey: Guid(d8af6b0d565c2f442b1ef050417be119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_232.asset using Guid(d8af6b0d565c2f442b1ef050417be119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca148ba6e6536bd9e6569b5455f9ba2e') in 0.008718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_243.asset
+  artifactKey: Guid(9a3e8cab55804944ea8d8cf09c58a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_243.asset using Guid(9a3e8cab55804944ea8d8cf09c58a517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d0213237a4a2c64f8bbf9e075d489a') in 0.009181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_24.asset
+  artifactKey: Guid(7df8da3c8dca76947a3106e33380b7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_24.asset using Guid(7df8da3c8dca76947a3106e33380b7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d119002b0bf9b4f68d5f076630f78ee') in 0.010789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_17.asset
+  artifactKey: Guid(68fb1bf8b7bc542458b2038b5baac699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_17.asset using Guid(68fb1bf8b7bc542458b2038b5baac699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa9277f5151e83d3cdff4777a1d69de') in 0.009337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_13.asset
+  artifactKey: Guid(f6bc00ca74924ac449ec467c38d0f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_13.asset using Guid(f6bc00ca74924ac449ec467c38d0f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce18fc5f73d89f30d188f191600c0a2') in 0.010537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_23.asset
+  artifactKey: Guid(066dbf9bd7520e545b06c7bcf772be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_23.asset using Guid(066dbf9bd7520e545b06c7bcf772be90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91a5a4628bce13e16ea21753c07942f') in 0.010094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_252.asset
+  artifactKey: Guid(b7b3fafe84103eb429cd434d17064ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_252.asset using Guid(b7b3fafe84103eb429cd434d17064ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8713b65254df1cbe6edc374b1318ad59') in 0.008833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_11.asset
+  artifactKey: Guid(717d99943b11ddc43ac7db9918106368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_11.asset using Guid(717d99943b11ddc43ac7db9918106368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855ec4797e0e8c28a9ac87f25e7e4edc') in 0.008747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_15.asset
+  artifactKey: Guid(558e1932ec37e48419f11895f693d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_15.asset using Guid(558e1932ec37e48419f11895f693d5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486fa1f5874b666b4275377dc165dd10') in 0.009368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_27.asset
+  artifactKey: Guid(9bbad0a7f03ec264587770528c434301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_27.asset using Guid(9bbad0a7f03ec264587770528c434301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f0629465d1fb1d72568b3f951df3f6') in 0.012650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_26.asset
+  artifactKey: Guid(3c3c341c8f2dbf849a1f8c3c287028c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_26.asset using Guid(3c3c341c8f2dbf849a1f8c3c287028c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e9e09d07266b0454ae27fd0a57184d') in 0.010240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_8.asset
+  artifactKey: Guid(0048cb600575b4e4d9b3e2eabaf86208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_8.asset using Guid(0048cb600575b4e4d9b3e2eabaf86208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca31bcbfa328519d268a3898de088c') in 0.007812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_5.asset
+  artifactKey: Guid(9158aca9211f58747bc0f6a2dad4675b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_5.asset using Guid(9158aca9211f58747bc0f6a2dad4675b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1be0c623c8f8a0f017fc9cc0cf001d') in 0.009362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_246.asset
+  artifactKey: Guid(50071d8cf9935284bb90a68c9d57974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_246.asset using Guid(50071d8cf9935284bb90a68c9d57974b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24d6a1931614eba70df8650b3220e8f') in 0.009305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_217.asset
+  artifactKey: Guid(62086f246a423dc4fa1e7ad8206152f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_217.asset using Guid(62086f246a423dc4fa1e7ad8206152f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408dd08a13178948e7a50b0783e555b3') in 0.009485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_238.asset
+  artifactKey: Guid(a3b1cd96117d50f4890dd72a55767eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_238.asset using Guid(a3b1cd96117d50f4890dd72a55767eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aa71cbad79a5588fed7a692f555c40') in 0.009626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/2D/Tileset/Props/tora_vx_02 copia_12.asset
+  artifactKey: Guid(24902e56a27b7e64fb327ba133226965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/tora_vx_02 copia_12.asset using Guid(24902e56a27b7e64fb327ba133226965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989c8faca618cc7bec7e224daadca37b') in 0.013507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_60.asset
+  artifactKey: Guid(b58f7bd20031aae40b43bf4813eb0853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_60.asset using Guid(b58f7bd20031aae40b43bf4813eb0853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dea4c05bd97d8a9d9a4a873f214a83d') in 0.010230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/2D/Tileset/Props/steampunkish-tilec_237.asset
+  artifactKey: Guid(aa8c7619a62afa249abe27cb3595727e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D/Tileset/Props/steampunkish-tilec_237.asset using Guid(aa8c7619a62afa249abe27cb3595727e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ac1ba5ea692ba588bb72158180203e') in 0.009610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

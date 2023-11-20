@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e23313d21ab7748a036c19dc526fe0, type: 3}
+  m_Name: Head_LongHair
+  m_EditorClassIdentifier: 
+  itemId: 0
+  itemName: Long Silver Wig
+  itemIcon: {fileID: -755546620, guid: 0da0b23b387024e4bb29fd00ef3d7d83, type: 3}
+  itemPrice: 50
